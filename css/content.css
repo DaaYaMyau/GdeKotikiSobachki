@@ -10,3 +10,8 @@ a{
 .liner{
     border: 1px solid rgb(239, 192, 192)
 }
+
+nav{
+    border: #ffd1cc;
+    background: #fffbfa;
+}
