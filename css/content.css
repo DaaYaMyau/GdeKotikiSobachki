@@ -15,3 +15,44 @@ nav{
     border: #ffd1cc;
     background: #fffbfa;
 }
+article{
+    width: 700px; /*ширина блока (контейнера)*/
+    margin: 0 auto; /*внешний отступ, снизу и сверху = 0, а слева и справа - автоматически выравнивается*/
+}
+
+h1, h2, h3, p, ol, ul, blockquote, div{
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 38px;
+    margin-top: 67px;
+    line-height: 45px; /*высота коробочки строки, в которой лежит текст*/
+}
+h1 + hr + p{
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+h3{
+    margin-top: 38px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+blockquote{
+    font-style: italic;
+}
+
+h2 + blockquote{
+    margin-top: 7px;
+}
