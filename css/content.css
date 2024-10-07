@@ -11,10 +11,6 @@ a{
     border: 1px solid rgb(239, 192, 192)
 }
 
-nav{
-    border: #ffd1cc;
-    background: #fffbfa;
-}
 article{
     width: 700px; /*ширина блока (контейнера)*/
     margin: 0 auto; /*внешний отступ, снизу и сверху = 0, а слева и справа - автоматически выравнивается*/
@@ -55,4 +51,8 @@ blockquote{
 
 h2 + blockquote{
     margin-top: 7px;
+}
+
+.winx{
+    width: 50%;
 }
