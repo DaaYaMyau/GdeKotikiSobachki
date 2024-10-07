@@ -26,7 +26,7 @@ h1{
     margin-top: 67px;
     line-height: 45px; /*высота коробочки строки, в которой лежит текст*/
 }
-h1 + hr + p{
+h1 + hr{
     margin-top: 8px;
     font-size: 22px;
     line-height: 32px;
@@ -43,7 +43,6 @@ h3{
     font-size: 24px;
     line-height: 30px;
 }
-
 
 blockquote{
     font-style: italic;
